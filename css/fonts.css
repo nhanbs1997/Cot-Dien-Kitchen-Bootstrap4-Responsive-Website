@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/Montserrat-Medium.otf") format('opentype');
+}
+@font-face {
+	font-family: 'Conv_VL_GreatVibes-Regular';
+	src: url('fonts/VL_GreatVibes-Regular.eot');
+	src: local('☺'), url('../fonts/VL_GreatVibes-Regular.woff') format('woff'), url('../fonts/VL_GreatVibes-Regular.ttf') format('truetype'), url('../fonts/VL_GreatVibes-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
