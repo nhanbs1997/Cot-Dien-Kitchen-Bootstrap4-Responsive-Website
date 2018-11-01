@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/reponsive.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<!-- Header -->
@@ -71,7 +72,7 @@
 			</div>
 		</div>
 		<!-- Navigation -->
-		<nav class="navbar navbar-expand-md navbar-dark">
+		<nav class="navbar navbar-expand-md navbar-dark sticky-top">
 			<a class="navbar-brand" href="#"><img src="img/logo-cot-dien-kitchen.png"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 				<span class="navbar-toggler-icon"></span>
@@ -103,19 +104,19 @@
 		<!-- 3 ảnh tròn -->
 		<div id="nhom-anh-tron" class="container-fluid">
 			<div class="row text-center">
-				<div class="col-xs-12 col-md-4">
+				<div class="col-sm-4 col-md-4">
 					<figure>
 						<img src="img/image-circle-1.png">
 						<figcaption>Mùa Vàng WareHouse</figcaption>
 					</figure>
 				</div>
-				<div class="col-xs-12 col-md-4">
+				<div class="col-sm-4 col-md-4">
 					<figure>
 						<img src="img/image-circle-2.png">
 						<figcaption>GoldenSeason Group</figcaption>
 					</figure>
 				</div>
-				<div class="col-xs-12 col-md-4">
+				<div class="col-sm-4 col-md-4">
 					<figure>
 						<img src="img/image-circle-3.png">
 						<figcaption>Xe Lam</figcaption>
@@ -231,8 +232,8 @@
 	</div>
 	<!-- Thực đơn -->
 	<div id="thuc-don" class="container-fluid">
-		<h1 class="text-center">Our Menu</h1>
-		<hr>
+		<h1 class="text-center">Thực đơn</h1>
+		<hr class="my-0">
 		<p class="text-center">Dưới đây là một số món mà nhà hàng chúng tôi tâm đắc nhất<br>chúng tôi giới thiệu đến quý khách</p>
 		<ul class="nav justify-content-center">
 			<hr>
@@ -328,17 +329,41 @@
 		<hr>
 		<p class="text-center">Dưới đây là một số hình ảnh về nhà hàng và một số món ăn đặc biệt</p>
 		<div class="row">
-			<div class="col-xs-6 col-md-3"><img src="img/gallery-anh-1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/gallery-anh-2.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/gallery-anh-3.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/gallery-anh-4.jpg"></div>
+			<div class="col-xs-6 col-md-3">
+				<a id="group-anh-1" href="#">
+					<img id="anh-1" src="img/gallery-anh-1.jpg">
+					<div id="overlay-1" class="color-overlay"></div>
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<a id="group-anh-2" href="#">
+					<img id="anh-2" src="img/gallery-anh-2.jpg">
+					<div id="overlay-2" class="color-overlay"></div>
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<a id="group-anh-3" href="#">
+					<img id="anh-3" src="img/gallery-anh-3.jpg">
+					<div id="overlay-3" class="color-overlay"></div>
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<a id="group-anh-4" href="#">
+					<img id="anh-4" src="img/gallery-anh-4.jpg">
+					<div id="overlay-4" class="color-overlay"></div>
+				</a>
+			</div>
+			<div id="demo1"></div>
+			<div id="demo2"></div>
+			<div id="demo3"></div>
+			<div id="demo4"></div>
 		</div>
 	</div>
 	<!-- Đặt bàn -->
 	<div id="dat-ban" class="container-fluid">
 		<h1 class="text-center">Đặt bàn</h1>
 		<hr class="my-0">
-		<p class="text-center">Để tránh tình trạng hết bàn, gây mất hứng dùng bửa<br>Mời bạn đặt bàn trước
+		<p class="text-center">Để tránh tình trạng hết bàn<br>Mời bạn đặt bàn trước
 		</p>
 		<div class="row">
 			<div class="col-xs-12 col-md-3"><img src="img/reservation-anh-1.jpg"></div>
@@ -357,7 +382,7 @@
 						<input type="time"></input>
 					</div>
 					<div class="col-xs-12 col-md-6">
-						<input type="number"></input>
+						<input type="number" placeholder="Số lượng khách"></input>
 					</div>
 					<div class="input-no-margin" class="col-xs-12 col-md-6">
 						<input type="email" placeholder="Email"></input>
@@ -390,7 +415,7 @@
 					<h1>Liên Hệ</h1>
 					<p><i class="fa fa-map-marker-alt"></i><span>01 đường Đồng Nai, Phường 15, Quận 10, Tp.HCM</span><br></p>
 					<p><i class="fa fa-phone"></i><span>1800 55 88 69 (nhấn phím 2)</span><br></p>
-					<p><i class="fas fa-envelope"></i><span>muavangcompany@gmail.com</span><p class="mua-vang">muavang.warehouse@gmail.com</p></p>
+					<i class="fas fa-envelope"></i><span>muavangcompany@gmail.com</span><p class="mua-vang">muavang.warehouse@gmail.com</p>
 				</div>
 				<div class="col-xs-12 col-md-3">
 					<hr>
@@ -403,7 +428,7 @@
 					<hr>
 					<h1>Bản đồ</h1>
 					<div id="map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4217027839563!2d106.66291146433669!3d10.77897841209519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c3958e5ae10cac3!2sM%C3%B9a+V%C3%A0ng+The+Warehouse!5e0!3m2!1svi!2s!4v1540985506947" width="285" height="166" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<!--	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4217027839563!2d106.66291146433669!3d10.77897841209519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c3958e5ae10cac3!2sM%C3%B9a+V%C3%A0ng+The+Warehouse!5e0!3m2!1svi!2s!4v1540985506947" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 					</div>
 				</div>
 			</div>
@@ -414,5 +439,45 @@
 			</div>
 		</div>
 	</footer>
+	<script>
+		$(document).ready(function(){
+			$("#group-anh-1").hover(function(){
+				document.getElementById('demo1').innerHTML = '<i class="fas fa-search"></i>';
+				$("#anh-1").css("transform", "scale(1.5)");
+				$("#overlay-1").css({"opacity": "0.4", "transition": "ease 1s"});
+			}, function(){
+				document.getElementById('demo1').innerHTML = '';
+				$("#anh-1").css("transform", "scale(1)");
+				$("#overlay-1").css("opacity", "0");
+			});
+			$("#group-anh-2").hover(function(){
+				document.getElementById('demo2').innerHTML = '<i class="fas fa-search"></i>';
+				$("#anh-2").css("transform", "scale(1.5)");
+				$("#overlay-2").css({"opacity": "0.4", "transition": "ease 1s"});
+			}, function(){
+				document.getElementById('demo2').innerHTML = '';
+				$("#anh-2").css("transform", "scale(1)");
+				$("#overlay-2").css("opacity", "0");
+			});
+			$("#group-anh-3").hover(function(){
+				document.getElementById('demo3').innerHTML = '<i class="fas fa-search"></i>';
+				$("#anh-3").css("transform", "scale(1.5)");
+				$("#overlay-3").css({"opacity": "0.4", "transition": "ease 1s"});
+			}, function(){
+				document.getElementById('demo3').innerHTML = '';
+				$("#anh-3").css("transform", "scale(1)");
+				$("#overlay-3").css("opacity", "0");
+			});
+			$("#group-anh-4").hover(function(){
+				document.getElementById('demo4').innerHTML = '<i class="fas fa-search"></i>';
+				$("#anh-4").css("transform", "scale(1.5)");
+				$("#overlay-4").css({"opacity": "0.4", "transition": "ease 1s"});
+			}, function(){
+				document.getElementById('demo4').innerHTML = '';
+				$("#anh-4").css("transform", "scale(1)");
+				$("#overlay-4").css("opacity", "0");
+			});
+		});
+	</script>
 </body>
 </html>

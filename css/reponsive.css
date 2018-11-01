@@ -1,14 +1,31 @@
 @media only screen and (max-width: 440px) {
-	#ve-chung-toi, #ba-cot, #su-kien, #thuc-don, #thu-vien-anh, #dat-ban, footer{display: none;}
+	html, body{
+		height: 100%;
+		width: 100%;
+		font-family: 'Montserrat', sans-serif;
+		overflow-x:hidden;
+	}
 	header #top{
 		display: none;
+	}
+	header #slideshow{
+		margin-top: 18%;
+	}
+	header nav{
+		padding: 0 15px;
 	}
 	header .navbar{
 		width: 100%;
 		position: absolute;
 		top: 0%;
 		left: 0%;
-		background-color: black;
+		background-color: #1b2024;
+	}
+	header .navbar-toggler{
+		font-size: 1rem;
+		margin-right: 0.5rem;
+		color: red;
+		border-color: 1px solid white;
 	}
 	header .navbar img{
 		width: 50%;
@@ -16,7 +33,7 @@
 	header .navbar .collapse{
 		margin-left: 0%;
 		font-weight: 600;
-		font-size: 0.6rem;
+		font-size: 1rem;
 	}
 	header .navbar-dark .navbar-nav .nav-link.active{
 		color: #e5cf05;
@@ -28,28 +45,24 @@
 		color: #e5cf05;
 	}
 	header #nhom-anh-tron{
-		margin-top: -14%;
-	}
-	header figcaption {
-		font-weight: 600;
-		font-size: 1.5rem
+		display: none;
 	}
 	#ve-chung-toi{
-		margin-top: 5%;
+		margin-top: 15%;
 	}
 	#ve-chung-toi .col-md-6:first-child{
-		padding: 0;
+		padding: 0 15px;
 	}
 	#ve-chung-toi p:first-child{
 		font-family: 'Conv_VL_GreatVibes-Regular';
-		font-size: 3.5rem;
+		font-size: 3rem;
 		padding-top: 1rem;
 		margin-bottom: 0rem;
 	}
 	#ve-chung-toi hr{
 		background-color:  #e5cf05;
-		height: 2px;
-		width: 50%;
+		height: 1px;
+		width: 80%;
 		margin: auto;
 	}
 	#ve-chung-toi p:not(first-child){
@@ -57,22 +70,22 @@
 		margin-top: 2rem;
 	}
 	#ba-cot{
-		margin-left: 3.6875rem;
-		margin-top: 2.71875rem;
-		margin-bottom: 3.65625rem;
-		padding-right: 10.25rem;
+		margin: 0;
+		margin-top: 2rem;
+		padding: 0;
 	}
 	#ba-cot .col-md-4{
-		padding: 2.15625rem 2.5625rem;
+		padding: 0.5rem 2rem;
+		background-color: #1b2024;
+		width: 80%;
+		margin: 0 2rem 2rem 2rem;
+		padding: 0;
 	}
 	#ba-cot .col-4{
 		padding-top: 2.0625rem;
 		padding-left: 2.375rem;
 		padding-bottom: 2.5625rem;
-		background-color: #1b2024;
-	}
-	#ba-cot .col-8{
-		background-color: #1b2024;
+		background-color: transparent;
 	}
 	#ba-cot .col-8 p:first-child{
 		padding-top: 1.75rem;
@@ -80,6 +93,7 @@
 		font-size: 1.0625rem;
 		margin-bottom: 0.5rem;
 		color: white;
+		background-color: transparent;
 	}
 	#ba-cot .col-8 p:not(first-child){
 		font-weight: 500;
@@ -88,32 +102,34 @@
 	}
 	#su-kien h1{
 		font-family: 'Conv_VL_GreatVibes-Regular';
-		font-size: 3.5rem;
+		font-size: 3rem;
 		margin-top: 2rem;
 		margin-bottom: 0;
+		text-align: center;
 	}
 	#su-kien hr{
-		width: 30%;
-		height: 2px;
+		width: 50%;
+		height: 1px;
 		background-color:  #e5cf05;
+		margin: auto;
 	}
 	#su-kien .col-md-5 p:not(first-child){
 		margin: .7rem;
 	}
 	#su-kien{
-		font-size: 1.084rem;
+		font-size: 1rem;
 	}
 	#su-kien .col-md-7{
-		padding: 0;
+		padding: 0 15px;
 	}
 	#thuc-don h1{
 		margin-top: 3.125rem;
 		font-family: 'Conv_VL_GreatVibes-Regular';
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 	#thuc-don hr{
-		width: 17%;
-		height: 2px;
+		width: 55%;
+		height: 1px;
 		background-color:  #e5cf05;
 		margin: auto;
 	}
@@ -131,6 +147,8 @@
 	}
 	#thuc-don .nav-link{
 		color: #24282c;
+		font-size: 1rem;
+		padding: 0 5px;
 	}
 	#thuc-don .nav-link:hover{
 		color: #e5cf05;
@@ -139,14 +157,23 @@
 		color: #e5cf05;
 	}
 	#thuc-don .row:first-child{
-		margin-left: 2rem;
+		margin-left: 0rem;
 	}
 	#thuc-don .row .col-md-6{
-		padding: 1.25rem 1.25rem;
+		padding: 0.5rem 0rem;
+		padding-right: 1.7rem;
 	}
-
+	#thuc-don .row .col-4 img{
+		width: 179%;
+	}
+	#thuc-don .row .col-8{
+		padding-left: 2rem;
+		background-color: #a7a7a7;
+	}
 	#thuc-don .row .col-8 h3{
-		font-size: 1.5rem;
+		font-size: 1.3rem;
+		margin-top: 1rem;
+		padding: 0;
 	}
 	#thuc-don .row .col-8 p{
 		margin-top: 0rem;
@@ -158,69 +185,98 @@
 	}
 	#thu-vien-anh h1{
 		font-family: 'Conv_VL_GreatVibes-Regular';
-		font-size: 3.5rem;
+		font-size: 3rem;
 		padding-top: 2rem;
 		margin-bottom: 0rem;
 	}
 	#thu-vien-anh hr{
-		height: 2px;
-		width: 20%;
+		height: 1px;
+		width: 60%;
 		margin: auto;
 		background-color: #e5cf05;
 	}
 	#thu-vien-anh p{
 		margin-top: 1rem;
+		padding: 0 1rem;
 	}
 	#thu-vien-anh .row{
 		margin: 0;
 	}
+	#thu-vien-anh .row .col-xs-6{
+		width: 50%;
+	}
+	#thu-vien-anh .row img{
+		width: 100%;
+		display: inline;
+	}
 	#thu-vien-anh .row .col-md-3{
 		padding: 0;
+	}
+	#thu-vien-anh .row i{
+		margin: 0;
+		position: absolute;
+		top: 25%;
+		left: 12.5%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+	#thu-vien-anh #demo1 i:first-child{
+		left: 25%;
+	}
+	#thu-vien-anh #demo2 i:first-child{
+		left: 75%;
+	}
+	#thu-vien-anh #demo3 i:first-child{
+		top: 75%;
+		left: 25%;
+	}
+	#thu-vien-anh #demo4 i:first-child{
+		top: 75%;
+		left: 75%;
 	}
 	#dat-ban{
 		margin-top: 3rem;
 	}
 	#dat-ban h1{
 		font-family: 'Conv_VL_GreatVibes-Regular';
-		font-size: 3.5rem;
+		font-size: 3rem;
 		margin-bottom: 0rem;
 	}
 	#dat-ban hr{
-		height: 2px;
-		width: 15%;
+		height: 1px;
+		width: 60%;
 		margin: auto;
 		background-color: #e5cf05;
 	}
 	#dat-ban p{
-		margin-top: 1.5rem;
+		margin-top: 1rem;
 		line-height: 2rem;
+		font-size: .8rem;
+		text-align: left;
 	}
 	#dat-ban .row .col-md-3{
 		padding: 0;
 	}
 	#dat-ban .row .col-md-3 img{
-		float: right;
-	}
-	#dat-ban .row .col-md-3:last-child img{
-		float: left;
+		display: none;
 	}
 	#dat-ban .row .col-md-6 input{
-		border: 2px solid #dbdbdb;
+		border: 1px solid #ced4da;
 		margin-top: 1rem;
-		margin-left: 5rem;
-		width: 70%;
+		margin-left: 0rem;
+		width: 100%;
 		height: 70%;
-		padding: 1rem;
+		padding: 0.5rem;
 	}
 	#dat-ban .row .input-no-margin{
-		margin-left: -5rem;
+		margin-left: 15px;
+		width: 92%;
 	}
 	#dat-ban .row input[type="date"]{
 		text-transform: uppercase;
 		color: #a7a7a7;
 	}
 	#dat-ban .row input[type="time"]{
-		width: 105%;
 		color: #a7a7a7;
 	}
 	::placeholder { 
@@ -229,30 +285,31 @@
 	}
 
 	#dat-ban .row .col-md-6 textarea{
-		border: 2px solid #dbdbdb;
+		border: 1px solid #ced4da;
 		margin-top: 1rem;
-		margin-left: 5rem;
-		width: 73%;
+		margin-left: 0rem;
+		width: 100%;
 		height: 70%;
-		padding: 1rem;
+		padding: 0.5rem;
 	}
 	#dat-ban .row button{
 		border: none;
 		background-color: #191919;
 		color: #e7e7e7;
-		width: 20%;
+		width: 40%;
 		height: 100%;
 		padding: 1rem;
-		margin-left: 38%;
+		margin-left: 30%;
+		font-weight: bold;
+	}
+	footer{
+		margin-top: 2rem;
 	}
 	footer .container-fluid .row{
 		background-color: #1b2024;
 	}
 	footer .container-fluid .col-md-3:first-child{
-		padding-top: 4.0625rem;
-		padding-left: 5.0625rem;
-		padding-right: 3.1875rem;
-		padding-bottom: 4.375rem;
+		padding: 2rem 2rem 0rem 2rem;
 	}
 	footer .container-fluid .col-md-3:first-child p{
 		font-size: 0.8rem;
@@ -268,8 +325,9 @@
 		padding: .5rem .35rem;
 	}
 	footer .container-fluid .col-md-3:not(first-child){
-		padding-top: 4.2rem;
+		padding-top: 2rem;
 		color: #d8d8d8;
+		padding-bottom: 0;
 	}
 	footer .container-fluid .col-md-3:not(first-child) hr{
 		width: 10%;
@@ -292,9 +350,15 @@
 	}
 	footer .container-fluid .col-md-3:not(first-child) p.mua-vang{
 		margin-left: 2rem;
+		margin-bottom: 0;
+	}
+	footer .container-fluid .col-md-3:last-child{
+		padding-top: 0;
+		padding-bottom: 2rem;
 	}
 	footer .container-fluid .row:last-child p{
 		margin: 0;
+		font-size: .5rem;
 	}
 	footer .container-fluid .row:last-child{
 		color: #757576;
@@ -302,7 +366,8 @@
 		padding: 2rem;
 	}
 	#map{
-		width: 285px;
+		width: 300px;
 		height: 166px;
+		margin-left: 1rem;
 	}
 }
