@@ -1,0 +1,105 @@
+/* Header */
+
+header #slideshow{
+	position: relative;
+}
+header #slideshow img{
+	width: 100%;
+	height: auto;
+	margin-top: -3rem;
+}
+header #slideshow img{
+	height: 600px;
+}
+header #slideshow .slideshow-bottom{
+	content: '';
+	position: absolute;
+	background: rgba(0, 0, 0, 0) url(../img/su-kien-tri-promo-bottom-white.png) repeat scroll 0 0;
+	left: 0;
+	bottom: 0px;
+	height: 7px;
+	-webkit-transform: rotateX(180deg);
+	transform: rotateX(180deg);
+	width: 100%;
+	z-index: 1;
+}
+header nav .collapse{
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-right: 25%;
+	transition: ease 2s;
+}
+header nav a img{
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+}
+/* Section */
+section{
+	margin-top: 3rem;
+}
+section h1{
+	font-family: 'Conv_VL_GreatVibes-Regular';
+	margin: 0;
+}
+section hr{
+	width: 15%;
+	height: 1px;
+	background: #e5cf05;
+	margin: auto;
+	margin-bottom: 1rem;
+}
+section #nhom-anh img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+/* Footer */
+#chua-map{
+	padding: 0;
+}
+#map{
+	width: 100%;
+	height: 30rem;
+	padding-top: -5;
+}
+#lien-he{
+	background-color: #303231;
+	padding: 3rem 1rem;
+}
+#lien-he img{
+	margin-top: 1rem;
+	margin-right: 1rem;
+	float: left;
+}
+#lien-he p{
+	color: white;
+	font-size: .8rem;
+	margin-left: 12rem;
+}
+#lien-he p:nth-of-type(1){
+	color: #e5cf05;
+	font-weight: 700;
+	font-size: 1rem;
+}
+#lien-he p:nth-of-type(4){
+	margin-left: 13rem;
+}
+#theo-doi-chung-toi{
+	background: #1f1f1f;
+	color: #e5cf05;
+	font-weight: 700;
+	padding: 5rem 0;
+}
+#theo-doi-chung-toi a{
+	height: 2rem;
+	width: 2rem;
+	padding-top: .3rem;
+	background: white;
+	border-radius: 50%;
+	display: inline-block;
+	color: black;
+}
+#theo-doi-chung-toi a:hover{
+	background: #e5cf05;
+	color: white;
+}

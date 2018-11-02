@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&subset=vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&subset=vietnamese');
 /* 
 font-family: 'Montserrat', sans-serif;
 font-family: 'Conv_VL_GreatVibes-Regular';
@@ -16,15 +16,18 @@ font-family: 'Conv_VL_GreatVibes-Regular';
 }
 html, body{
 	height: 100%;
-	width: 1366px;
+	width: 100%;
 	font-family: 'Montserrat', sans-serif;
 	margin: auto;
 	overflow-x: hidden;
 	position: relative;
 }
+body #wrapper{
+	padding: 0;
+}
 header #top{
 	background-color: #1b2024;
-	font-size: .917rem;
+	font-size: .8rem;
 	padding: 0.40625rem 4.6875rem;
 	color: #d1d2d3;
 	position: absolute;
@@ -54,6 +57,7 @@ header .navbar-dark .navbar-nav .nav-link.active{
 }
 header .navbar-dark .navbar-nav .nav-link {
 	color: white;
+	font-size: .8rem;
 }
 header .navbar-dark .navbar-nav .nav-link:hover{
 	color: #e5cf05;
@@ -63,29 +67,32 @@ header #nhom-anh-tron{
 }
 header figcaption {
 	font-weight: 600;
-	font-size: 1.5rem
+	font-size: 1rem;
 }
 #ve-chung-toi{
-	margin-top: 5%;
+	margin-top: 2%;
 }
 #ve-chung-toi .col-md-6:first-child{
 	padding: 0;
 }
 #ve-chung-toi p:first-child{
 	font-family: 'Conv_VL_GreatVibes-Regular';
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	padding-top: 1rem;
 	margin-bottom: 0rem;
+	color: black;
 }
 #ve-chung-toi hr{
 	background-color:  #e5cf05;
-	height: 2px;
-	width: 50%;
+	height: 1px;
+	width: 30%;
 	margin: auto;
 }
 #ve-chung-toi p:not(first-child){
-	font-size: 1.16rem;
-	margin-top: 2rem;
+	font-size: .9rem;
+	margin-top: 1rem;
+	color: #808080;
+	margin-bottom: 0;
 }
 #ba-cot{
 	margin-left: 3.6875rem;
@@ -106,7 +113,7 @@ header figcaption {
 	background-color: #1b2024;
 }
 #ba-cot .col-8 p:first-child{
-	padding-top: 1.75rem;
+	padding-top: 2rem;
 	font-weight: 600;
 	font-size: 1.0625rem;
 	margin-bottom: 0.5rem;
@@ -119,38 +126,46 @@ header figcaption {
 }
 #su-kien h1{
 	font-family: 'Conv_VL_GreatVibes-Regular';
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	margin-top: 2rem;
 	margin-bottom: 0;
 }
 #su-kien hr{
-	width: 30%;
-	height: 2px;
+	width: 20%;
+	height: 1px;
 	background-color:  #e5cf05;
 }
+#su-kien .col-md-5 p.text-uppercase{
+	margin-top: 1rem;
+}
 #su-kien .col-md-5 p:not(first-child){
-	margin: .7rem;
+	margin: .3rem;
+	color: #808080;
 }
 #su-kien{
-	font-size: 1.084rem;
+	font-size: .9rem;
 }
 #su-kien .col-md-7{
 	padding: 0;
 }
 #thuc-don h1{
-	margin-top: 3.125rem;
+	margin-top: 2rem;
+	margin-bottom: 0;
 	font-family: 'Conv_VL_GreatVibes-Regular';
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 }
 #thuc-don hr{
-	width: 17%;
-	height: 2px;
+	width: 10%;
+	height: 1px;
 	background-color:  #e5cf05;
 	margin: auto;
 }
 #thuc-don p{
 	margin-top: 1rem;
 	line-height: 2rem;
+	color: #808080;
+	font-size: .9rem;
+	margin-bottom: 0;
 }
 #thuc-don .nav hr{
 	width: 2%;
@@ -159,6 +174,8 @@ header figcaption {
 }
 #thuc-don .nav-item{
 	font-weight: 500;
+	font-size: .9rem;
+	margin-top: 0;
 }
 #thuc-don .nav-link{
 	color: #24282c;
@@ -173,11 +190,11 @@ header figcaption {
 	margin-left: 2rem;
 }
 #thuc-don .row .col-md-6{
-	padding: 1.25rem 1.25rem;
+	padding: 1rem 0rem;
 }
-
 #thuc-don .row .col-8 h3{
-	font-size: 1.5rem;
+	font-size: 1rem;
+	margin-top: 1rem;
 }
 #thuc-don .row .col-8 p{
 	margin-top: 0rem;
@@ -189,18 +206,19 @@ header figcaption {
 }
 #thu-vien-anh h1{
 	font-family: 'Conv_VL_GreatVibes-Regular';
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	padding-top: 2rem;
 	margin-bottom: 0rem;
 }
 #thu-vien-anh hr{
-	height: 2px;
-	width: 20%;
+	height: 1px;
+	width: 15%;
 	margin: auto;
 	background-color: #e5cf05;
 }
 #thu-vien-anh p{
-	margin-top: 1rem;
+	margin-top: .9rem;
+	color: #808080;
 }
 #thu-vien-anh .row{
 	margin: 0;
@@ -252,18 +270,20 @@ header figcaption {
 }
 #dat-ban h1{
 	font-family: 'Conv_VL_GreatVibes-Regular';
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	margin-bottom: 0rem;
 }
 #dat-ban hr{
-	height: 2px;
-	width: 15%;
+	height: 1px;
+	width: 10%;
 	margin: auto;
 	background-color: #e5cf05;
 }
 #dat-ban p{
-	margin-top: 1.5rem;
-	line-height: 2rem;
+	margin-top: 1rem;
+	line-height: 1.5rem;
+	color: #808080;
+	font-size: .9rem;
 }
 #dat-ban .row .col-md-3{
 	padding: 0;
@@ -275,7 +295,7 @@ header figcaption {
 	float: left;
 }
 #dat-ban .row .col-md-6 input{
-	border: 2px solid #dbdbdb;
+	border: 1px solid #dbdbdb;
 	margin-top: 1rem;
 	margin-left: 5rem;
 	width: 70%;
@@ -288,18 +308,23 @@ header figcaption {
 #dat-ban .row input[type="date"]{
 	text-transform: uppercase;
 	color: #a7a7a7;
+	font-size: .9rem;
+	padding: .8rem;
 }
 #dat-ban .row input[type="time"]{
-	width: 105%;
+	width: 112%;
 	color: #a7a7a7;
+	font-size: .9rem;
+	padding: .8rem;
 }
 ::placeholder { 
 	color: #a7a7a7;
 	opacity: 1;
+	font-size: 0.9rem;
 }
 
 #dat-ban .row .col-md-6 textarea{
-	border: 2px solid #dbdbdb;
+	border: 1px solid #dbdbdb;
 	margin-top: 1rem;
 	margin-left: 5rem;
 	width: 73%;
@@ -314,6 +339,7 @@ header figcaption {
 	height: 100%;
 	padding: 1rem;
 	margin-left: 38%;
+	font-weight: bold;
 }
 footer{
 	margin-top: 3%;
@@ -322,10 +348,14 @@ footer .container-fluid .row{
 	background-color: #1b2024;
 }
 footer .container-fluid .col-md-3:first-child{
-	padding-top: 4.0625rem;
+	/*padding-top: 4.0625rem;
 	padding-left: 5.0625rem;
 	padding-right: 3.1875rem;
-	padding-bottom: 4.375rem;
+	padding-bottom: 4.375rem;*/
+	padding: 4rem 5rem 3rem 4rem;
+}
+footer .container-fluid .col-md-3{
+	font-size: .9rem;
 }
 footer .container-fluid .col-md-3:first-child p{
 	font-size: 0.8rem;
@@ -372,7 +402,8 @@ footer .container-fluid .row:last-child p{
 footer .container-fluid .row:last-child{
 	color: #757576;
 	border-top: 1px solid #494d50;
-	padding: 1.5rem;
+	padding: 1rem;
+	font-size: 0.9rem;
 }
 #map{
 	width: 285px;

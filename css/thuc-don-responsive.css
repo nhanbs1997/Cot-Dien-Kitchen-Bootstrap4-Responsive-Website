@@ -1,0 +1,42 @@
+@media only screen and (max-width: 440px) {
+	/* Header */
+	header #slideshow img{
+	height: 300px;
+}
+	#logo, header nav .collapse{
+		background: #1b2024;
+	}
+	/* Section */
+	section{
+		margin-top: 1rem;
+	}
+	section #nhom-anh{
+		padding: 0;
+	}
+	section #nhom-anh img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	/* Footer */
+	#map{
+		width: 20.5rem;
+		height: 20rem;
+		padding-bottom: 1rem;
+	}
+	footer img{
+		position: absolute;
+		top: 0%;
+	}
+	#lien-he p{
+		margin-left: 0;
+		margin-bottom: .5rem;
+	}
+	#lien-he p:nth-of-type(1){
+		margin-top: 3.5rem;
+	}
+	#lien-he p:nth-of-type(4){
+		margin-left: 0;
+	}
+}

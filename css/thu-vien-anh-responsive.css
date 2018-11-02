@@ -1,0 +1,17 @@
+@media only screen and (max-width: 440px) {
+	header #slideshow img{
+	height: 300px;
+}
+	#thu-vien-anh .col-md-3:first-child{
+		margin-left: 1rem;
+	}
+	#thu-vien-anh .col-md-3{
+		margin-bottom: 1rem;
+	}
+	#thu-vien-anh{
+		padding-bottom: 1rem;
+	}
+	#dat-ban{
+		margin-top: 0rem;
+	}
+}

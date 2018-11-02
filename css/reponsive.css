@@ -19,6 +19,7 @@
 		position: absolute;
 		top: 0%;
 		left: 0%;
+		position:fixed;
 		background-color: #1b2024;
 	}
 	header .navbar-toggler{
@@ -47,26 +48,27 @@
 		display: none;
 	}
 	#ve-chung-toi{
-		margin-top: 15%;
+		margin-top: 5%;
 	}
 	#ve-chung-toi .col-md-6:first-child{
 		padding: 0 15px;
 	}
 	#ve-chung-toi p:first-child{
 		font-family: 'Conv_VL_GreatVibes-Regular';
-		font-size: 3rem;
+		font-size: 2rem;
 		padding-top: 1rem;
 		margin-bottom: 0rem;
+		margin-top: .5rem;
 	}
 	#ve-chung-toi hr{
 		background-color:  #e5cf05;
 		height: 1px;
-		width: 80%;
+		width: 60%;
 		margin: auto;
 	}
 	#ve-chung-toi p:not(first-child){
-		font-size: 1.16rem;
-		margin-top: 2rem;
+		font-size: .9rem;
+		margin-top: .5rem;
 	}
 	#ba-cot{
 		margin: 0;
@@ -77,19 +79,19 @@
 		padding: 0.5rem 2rem;
 		background-color: #1b2024;
 		width: 80%;
-		margin: 0 2rem 2rem 2rem;
+		margin: 0 2rem 1rem 2rem;
 		padding: 0;
 	}
 	#ba-cot .col-4{
-		padding-top: 2.0625rem;
+		padding-top: 1.5rem;
 		padding-left: 2.375rem;
-		padding-bottom: 2.5625rem;
+		padding-bottom: 1.5rem;
 		background-color: transparent;
 	}
 	#ba-cot .col-8 p:first-child{
-		padding-top: 1.75rem;
+		padding-top: 1rem;
 		font-weight: 600;
-		font-size: 1.0625rem;
+		font-size: 1rem;
 		margin-bottom: 0.5rem;
 		color: white;
 		background-color: transparent;
@@ -101,40 +103,43 @@
 	}
 	#su-kien h1{
 		font-family: 'Conv_VL_GreatVibes-Regular';
-		font-size: 3rem;
-		margin-top: 2rem;
+		font-size: 2rem;
+		margin-top: 1rem;
 		margin-bottom: 0;
 		text-align: center;
 	}
 	#su-kien hr{
-		width: 50%;
+		width: 30%;
 		height: 1px;
 		background-color:  #e5cf05;
 		margin: auto;
 	}
 	#su-kien .col-md-5 p:not(first-child){
 		margin: .7rem;
+		color: #808080;
+		margin: 0;
 	}
 	#su-kien{
-		font-size: 1rem;
+		font-size: .9rem;
 	}
 	#su-kien .col-md-7{
-		padding: 0 15px;
+		padding: 15px;
 	}
 	#thuc-don h1{
-		margin-top: 3.125rem;
+		margin-top: 1rem;
 		font-family: 'Conv_VL_GreatVibes-Regular';
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	#thuc-don hr{
-		width: 55%;
+		width: 40%;
 		height: 1px;
 		background-color:  #e5cf05;
 		margin: auto;
 	}
 	#thuc-don p{
 		margin-top: 1rem;
-		line-height: 2rem;
+		line-height: 1.5rem;
+		margin-bottom: .5rem;
 	}
 	#thuc-don .nav hr{
 		width: 2%;
@@ -163,11 +168,10 @@
 		padding-right: 1.7rem;
 	}
 	#thuc-don .row .col-4 img{
-		width: 179%;
+		width: 150%;
 	}
 	#thuc-don .row .col-8{
-		padding-left: 2rem;
-		background-color: #a7a7a7;
+		padding-left: 2.3rem;
 	}
 	#thuc-don .row .col-8 h3{
 		font-size: 1.3rem;
@@ -178,25 +182,27 @@
 		margin-top: 0rem;
 	}
 	#thu-vien-anh{
-		margin-top: 2rem;
+		margin-top: 1rem;
 		padding: 0;
 		padding-bottom: 3.5rem;
 	}
 	#thu-vien-anh h1{
 		font-family: 'Conv_VL_GreatVibes-Regular';
-		font-size: 3rem;
+		font-size: 2rem;
 		padding-top: 2rem;
 		margin-bottom: 0rem;
 	}
 	#thu-vien-anh hr{
 		height: 1px;
-		width: 60%;
+		width: 40%;
 		margin: auto;
 		background-color: #e5cf05;
 	}
 	#thu-vien-anh p{
 		margin-top: 1rem;
 		padding: 0 1rem;
+		font-size: .9rem;
+		color: #808080;
 	}
 	#thu-vien-anh .row{
 		margin: 0;
@@ -234,24 +240,23 @@
 		left: 75%;
 	}
 	#dat-ban{
-		margin-top: 3rem;
+		margin-top: 1rem;
 	}
 	#dat-ban h1{
 		font-family: 'Conv_VL_GreatVibes-Regular';
-		font-size: 3rem;
+		font-size: 2rem;
 		margin-bottom: 0rem;
 	}
 	#dat-ban hr{
 		height: 1px;
-		width: 60%;
+		width: 40%;
 		margin: auto;
 		background-color: #e5cf05;
 	}
 	#dat-ban p{
 		margin-top: 1rem;
-		line-height: 2rem;
-		font-size: .8rem;
-		text-align: left;
+		line-height: 1rem;
+		font-size: .9rem;
 	}
 	#dat-ban .row .col-md-3{
 		padding: 0;
@@ -297,9 +302,10 @@
 		color: #e7e7e7;
 		width: 40%;
 		height: 100%;
-		padding: 1rem;
+		padding: 0.5rem;
 		margin-left: 30%;
 		font-weight: bold;
+		margin-top: .5rem;
 	}
 	footer{
 		margin-top: 2rem;
@@ -308,23 +314,19 @@
 		background-color: #1b2024;
 	}
 	footer .container-fluid .col-md-3:first-child{
-		padding: 2rem 2rem 0rem 2rem;
+		padding: 2rem 2rem 0rem 5rem;
 	}
 	footer .container-fluid .col-md-3:first-child p{
-		font-size: 0.8rem;
-		color: #cdcdcd;
-		margin-top: 1rem;
+		display: none;
 	}
 	footer .container-fluid .col-md-3:first-child i{
-		color: white;
-		border: 2px solid white;
-		padding: .5rem;
+		display: none;
 	}
 	footer .container-fluid .col-md-3:first-child i.fa-google-plus-g{
 		padding: .5rem .35rem;
 	}
 	footer .container-fluid .col-md-3:not(first-child){
-		padding-top: 2rem;
+		padding-top: 3rem;
 		color: #d8d8d8;
 		padding-bottom: 0;
 	}
@@ -352,7 +354,7 @@
 		margin-bottom: 0;
 	}
 	footer .container-fluid .col-md-3:last-child{
-		padding-top: 0;
+		padding-top: 3rem;
 		padding-bottom: 2rem;
 	}
 	footer .container-fluid .row:last-child p{

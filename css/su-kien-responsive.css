@@ -1,0 +1,50 @@
+@media only screen and (max-width: 440px) {
+	/* Header */
+	header #slideshow img{
+		height: 300px;
+	}
+	#logo, header nav .collapse{
+		background: #1b2024;
+	}
+	/* Section */
+	section{
+		margin-top: 1rem;
+	}
+	#anh-mua-8-tang-2{
+		float: left;
+		width: 100%;
+		margin-top: 0;
+	}
+	section .jumbotron{
+		width: 100%;
+		margin-top: 1rem;
+	}
+	section .jumbotron h3{
+		font-size: 1.2rem;
+		color: #e6d112;
+		text-align: center;
+	}
+	section .jumbotron button{
+		padding: .3rem 2rem;
+	}
+	/* Footer */
+	#map{
+		width: 20.5rem;
+		height: 20rem;
+		padding-bottom: 1rem;
+	}
+	footer img{
+		position: absolute;
+		top: 0%;
+	}
+	#lien-he p{
+		margin-left: 0;
+		margin-bottom: .5rem;
+	}
+	#lien-he p:nth-of-type(1){
+		margin-top: 3.5rem;
+	}
+	#lien-he p:nth-of-type(4){
+		margin-left: 0;
+	}
+}

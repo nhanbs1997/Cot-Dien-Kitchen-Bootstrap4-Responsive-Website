@@ -22,423 +22,423 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-	<!-- Header -->
-	<header>
-		<!-- Slideshow -->
-		<div id="slideshow" class="carousel slide" data-ride="carousel">
-			<!--
-			<ul class="carousel-indicators">
-				<li data-target="#slideshow" data-slide-to="0" class="active"></li>
-				<li data-target="#slideshow" data-slide-to="1"></li>
-				<li data-target="#slideshow" data-slide-to="2"></li>
-			</ul>-->
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img class="img-fluid" src="img/slideshow1.jpg">
-				</div>
-				<div class="carousel-item">
-					<img class="img-fluid" src="img/slideshow2.jpg">
+	<div id="wrapper" class="container-fluid">
+		<!-- Header -->
+		<header>
+			<!-- Slideshow -->
+			<div id="slideshow" class="carousel slide bg-overlay" data-ride="carousel">
 
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="img-fluid bg-overlay" src="img/slideshow1.jpg">
+					</div>
+					<div class="carousel-item">
+						<img class="img-fluid" src="img/slideshow2.jpg">
+
+					</div>
+					<div class="carousel-item">
+						<img class="img-fluid" src="img/slideshow3.jpg">
+					</div>
 				</div>
-				<div class="carousel-item">
-					<img class="img-fluid" src="img/slideshow3.jpg">
+				<a class="carousel-control-prev" href="#slideshow" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#slideshow" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+			<!-- Header Top -->
+			<div id="top" class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12 col-md-4">
+						<i class="fas fa-map-marker-alt"></i>
+						<span>01 Đồng Nai, Phường 15, Quận 10, Tp.HCM</span>
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<i class="fas fa-phone"></i>
+						<span>096 501 01 01</span>
+					</div>
+					<div id="icon-header" class="col-xs-12 col-md-4">
+						<a href=""><i class="fab fa-instagram"></i></a>
+						<a href=""><i class="fab fa-pinterest"></i></a>
+						<a href=""><i class="fab fa-google-plus-g"></i></a>
+						<a href=""><i class="fab fa-twitter"></i></a>
+						<a href=""><i class="fab fa-facebook"></i></a>
+					</div>
 				</div>
 			</div>
-			<a class="carousel-control-prev" href="#slideshow" data-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			</a>
-			<a class="carousel-control-next" href="#slideshow" data-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			</a>
+			<!-- Navigation -->
+			<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+				<a class="navbar-brand" href="#"><img src="img/logo-cot-dien-kitchen.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a id="link-active" class="nav-link active" href="#">TRANG CHỦ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="su-kien.html">SỰ KIỆN</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="thuc-don.html">THỰC ĐƠN</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="thu-vien-anh.html">THƯ VIỆN ẢNH</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="lien-he.html">LIÊN HỆ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#dat-ban">ĐẶT BÀN</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- 3 ảnh tròn -->
+			<div id="nhom-anh-tron" class="container-fluid">
+				<div class="row text-center">
+					<div class="col-sm-4 col-md-4">
+						<figure>
+							<img src="img/image-circle-1.png">
+							<figcaption>Mùa Vàng WareHouse</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-4 col-md-4">
+						<figure>
+							<img src="img/image-circle-2.png">
+							<figcaption>GoldenSeason Group</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-4 col-md-4">
+						<figure>
+							<img src="img/image-circle-3.png">
+							<figcaption>Xe Lam</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Về Chúng Tôi -->
+		<div id="ve-chung-toi" class="container-fluid">
+			<div class="row bg-light">
+				<div class="col-xs-12 col-md-6">
+					<img class="img-fluid" src="img/gioi-thieu-anh.jpg">
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<p class="text-center">Về Chúng Tôi</p>
+					<hr>
+					<p class="text-justify">
+						Tọa lạc trên đường Đồng Nai Q.10 nhà hàng Cột Điện Kitchen với thiết kế không gian mở, thoáng mát, rộng rãi là một trong những điểm đến lý tưởng cho thực khách Sài Thành.
+					</p>
+					<p class="text-justify">
+						Với mong muốn mang ẩm thực truyền thống, đặc sắc từ các nước Á-Âu cho khách hàng thưởng thức, những đầu bếp của chúng tôi luôn cập nhật các xu hướng, món ăn độc đáo, mới lạ nhất. Cột Điện Kitchen sẽ là món quà tinh thần giá trị mang đến cho khách hàng.
+					</p>
+				</div>
+			</div>
 		</div>
-		<!-- Header Top -->
-		<div id="top" class="container-fluid">
+		<!-- 3 cột -->
+		<div id="ba-cot" class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-md-4">
-					<i class="fas fa-map-marker-alt"></i>
-					<span>01 Đồng Nai, Phường 15, Quận 10, Tp.HCM</span>
+					<div class="row">
+						<div class="col-4 text-center">
+							<img src="img/icon1.png" class="img-fluid">
+						</div>
+						<div class="col-8">
+							<p class="text-center">Trademark</p>
+							<p class="text-center">3 thương hiệu</p>
+						</div>
+					</div>			
 				</div>
 				<div class="col-xs-12 col-md-4">
-					<i class="fas fa-phone"></i>
-					<span>096 501 01 01</span>
+					<div class="row">
+						<div class="col-4 text-center">
+							<img src="img/icon2.png" class="img-fluid">
+						</div>
+						<div class="col-8">
+							<p class="text-center">Restaurant</p>
+							<p class="text-center">40 nhà hàng</p>
+						</div>
+					</div>
 				</div>
-				<div id="icon-header" class="col-xs-12 col-md-4">
-					<a href=""><i class="fab fa-instagram"></i></a>
-					<a href=""><i class="fab fa-pinterest"></i></a>
-					<a href=""><i class="fab fa-google-plus-g"></i></a>
-					<a href=""><i class="fab fa-twitter"></i></a>
-					<a href=""><i class="fab fa-facebook"></i></a>
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						<div class="col-4 text-center">
+							<img src="img/icon3.png" class="img-fluid">
+						</div>
+						<div class="col-8">
+							<p class="text-center">City</p>
+							<p class="text-center">Có ở 10 thành phố</p>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-		<!-- Navigation -->
-		<nav class="navbar navbar-expand-md navbar-dark sticky-top">
-			<a class="navbar-brand" href="#"><img src="img/logo-cot-dien-kitchen.png"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="collapsibleNavbar">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a id="link-active" class="nav-link active" href="#">TRANG CHỦ</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">SỰ KIỆN</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">THỰC ĐƠN</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">THƯ VIỆN ẢNH</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">LIÊN HỆ</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">ĐẶT BÀN</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-
-		<!-- 3 ảnh tròn -->
-		<div id="nhom-anh-tron" class="container-fluid">
-			<div class="row text-center">
-				<div class="col-sm-4 col-md-4">
-					<figure>
-						<img src="img/image-circle-1.png">
-						<figcaption>Mùa Vàng WareHouse</figcaption>
-					</figure>
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						<div class="col-4 text-center">
+							<img src="img/icon4.png" class="img-fluid">
+						</div>
+						<div class="col-8">
+							<p class="text-center">Customer</p>
+							<p class="text-center">Phục vụ 1.000 lượt</p>
+						</div>
+					</div>	
 				</div>
-				<div class="col-sm-4 col-md-4">
-					<figure>
-						<img src="img/image-circle-2.png">
-						<figcaption>GoldenSeason Group</figcaption>
-					</figure>
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						<div class="col-4 text-center">
+							<img src="img/icon5.png" class="img-fluid">
+						</div>
+						<div class="col-8">
+							<p class="text-center">Loyal Customers</p>
+							<p class="text-center">500.000 khách hàng</p>
+						</div>
+					</div>
 				</div>
-				<div class="col-sm-4 col-md-4">
-					<figure>
-						<img src="img/image-circle-3.png">
-						<figcaption>Xe Lam</figcaption>
-					</figure>
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						<div class="col-4 text-center">
+							<img src="img/icon6.png" class="img-fluid">
+						</div>
+						<div class="col-8">
+							<p class="text-center">Partner</p>
+							<p class="text-center">45 đối tác</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</header>
-	<!-- Về Chúng Tôi -->
-	<div id="ve-chung-toi" class="container-fluid">
-		<div class="row bg-light">
-			<div class="col-xs-12 col-md-6">
-				<img class="img-fluid" src="img/gioi-thieu-anh.jpg">
+		<!-- Sự kiện -->
+		<div id="su-kien" class="container-fluid">
+			<div class="row bg-light">
+				<div class="col-md-5">
+					<h1>Sự kiện</h1>
+					<hr class="my-0">
+					<p class="text-uppercase">Cuồng nhiệt chung kết!!! World Cup 2018</p>
+					<p>Một khi đã trao trái tim đó cho Pháp</p>
+					<p>Yêu cuồng điên không biết cách dừng lại</p>
+					<p>Pháp nha ae - AD đã xác định là xuống xác. đợi quá lâu cho chiếc cúp vô địch</p>
+				</div>
+				<div class="col-md-7">
+					<img class="img-fluid" src="img/event-anh.jpg">
+				</div>
 			</div>
-			<div class="col-xs-12 col-md-6">
-				<p class="text-center">Về Chúng Tôi</p>
+		</div>
+		<!-- Thực đơn -->
+		<div id="thuc-don" class="container-fluid">
+			<h1 class="text-center">Thực đơn</h1>
+			<hr class="my-0">
+			<p class="text-center">Dưới đây là một số món mà nhà hàng chúng tôi tâm đắc nhất<br>chúng tôi giới thiệu đến quý khách</p>
+			<ul class="nav justify-content-center">
 				<hr>
-				<p>
-					Tọa lạc trên đường Đồng Nai Q.10 nhà hàng Cột Điện Kitchen với thiết kế không gian mở, thoáng mát, rộng rãi là một trong những điểm đến lý tưởng cho thực khách Sài Thành.
-				</p>
-				<p>
-					Với mong muốn mang ẩm thực truyền thống, đặc sắc từ các nước Á-Âu cho khách hàng thưởng thức, những đầu bếp của chúng tôi luôn cập nhật các xu hướng, món ăn độc đáo, mới lạ nhất. Cột Điện Kitchen sẽ là món quà tinh thần giá trị mang đến cho khách hàng.
-				</p>
+				<li class="nav-item">
+					<a class="nav-link active" href="#">HÀU PHÁP</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">GỎI</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">THỊT BÒ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">HẢI SẢN</a>
+				</li>
+			</ul>
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<div class="row">
+						<div class="col-4">
+							<img src="img/mon-an-1.jpg">
+						</div>
+						<div class="col-8">
+							<h3>Xà Lách Phô Mai</h3>
+							<p>Mô tả món ăn</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="row">
+						<div class="col-4">
+							<img src="img/mon-an-2.jpg">
+						</div>
+						<div class="col-8">
+							<h3>Xà Lách Phô Mai</h3>
+							<p>Mô tả món ăn</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<div class="row">
+						<div class="col-4">
+							<img src="img/mon-an-3.jpg">
+						</div>
+						<div class="col-8">
+							<h3>Xà Lách Phô Mai</h3>
+							<p>Mô tả món ăn</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="row">
+						<div class="col-4">
+							<img src="img/mon-an-4.jpg">
+						</div>
+						<div class="col-8">
+							<h3>Xà Lách Phô Mai</h3>
+							<p>Mô tả món ăn</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<div class="row">
+						<div class="col-4">
+							<img src="img/mon-an-5.jpg">
+						</div>
+						<div class="col-8">
+							<h3>Xà Lách Phô Mai</h3>
+							<p>Mô tả món ăn</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="row">
+						<div class="col-4">
+							<img src="img/mon-an-6.jpg">
+						</div>
+						<div class="col-8">
+							<h3>Xà Lách Phô Mai</h3>
+							<p>Mô tả món ăn</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<!-- 3 cột -->
-	<div id="ba-cot" class="container-fluid">
-		<div class="row">
-			<div class="col-xs-12 col-md-4">
-				<div class="row">
-					<div class="col-4 text-center">
-						<img src="img/icon1.png" class="img-fluid">
-					</div>
-					<div class="col-8">
-						<p class="text-center">Trademark</p>
-						<p class="text-center">3 thương hiệu</p>
-					</div>
-				</div>			
-			</div>
-			<div class="col-xs-12 col-md-4">
-				<div class="row">
-					<div class="col-4 text-center">
-						<img src="img/icon2.png" class="img-fluid">
-					</div>
-					<div class="col-8">
-						<p class="text-center">Restaurant</p>
-						<p class="text-center">40 nhà hàng</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-md-4">
-				<div class="row">
-					<div class="col-4 text-center">
-						<img src="img/icon3.png" class="img-fluid">
-					</div>
-					<div class="col-8">
-						<p class="text-center">City</p>
-						<p class="text-center">Có ở 10 thành phố</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-md-4">
-				<div class="row">
-					<div class="col-4 text-center">
-						<img src="img/icon4.png" class="img-fluid">
-					</div>
-					<div class="col-8">
-						<p class="text-center">Customer</p>
-						<p class="text-center">Phục vụ 1.000 lượt</p>
-					</div>
-				</div>	
-			</div>
-			<div class="col-xs-12 col-md-4">
-				<div class="row">
-					<div class="col-4 text-center">
-						<img src="img/icon5.png" class="img-fluid">
-					</div>
-					<div class="col-8">
-						<p class="text-center">Loyal Customers</p>
-						<p class="text-center">500.000 khách hàng</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-md-4">
-				<div class="row">
-					<div class="col-4 text-center">
-						<img src="img/icon6.png" class="img-fluid">
-					</div>
-					<div class="col-8">
-						<p class="text-center">Partner</p>
-						<p class="text-center">45 đối tác</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Sự kiện -->
-	<div id="su-kien" class="container-fluid">
-		<div class="row bg-light">
-			<div class="col-md-5">
-				<h1>Sự kiện</h1>
-				<hr class="my-0">
-				<p class="text-uppercase">Cuồng nhiệt chung kết!!! World Cup 2018</p>
-				<p>Một khi đã trao trái tim đó cho Pháp</p>
-				<p>Yêu cuồng điên không biết cách dừng lại</p>
-				<p>Pháp nha ae - AD đã xác định là xuống xác. đợi quá lâu cho chiếc cúp vô địch</p>
-			</div>
-			<div class="col-md-7">
-				<img class="img-fluid" src="img/event-anh.jpg">
-			</div>
-		</div>
-	</div>
-	<!-- Thực đơn -->
-	<div id="thuc-don" class="container-fluid">
-		<h1 class="text-center">Thực đơn</h1>
-		<hr class="my-0">
-		<p class="text-center">Dưới đây là một số món mà nhà hàng chúng tôi tâm đắc nhất<br>chúng tôi giới thiệu đến quý khách</p>
-		<ul class="nav justify-content-center">
+		<!-- Thư viện ảnh -->
+		<div id="thu-vien-anh" class="container-fluid bg-light">
+			<h1 class="text-center">Thư viện ảnh</h1>
 			<hr>
-			<li class="nav-item">
-				<a class="nav-link active" href="#">HÀU PHÁP</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">GỎI</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">THỊT BÒ</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">HẢI SẢN</a>
-			</li>
-		</ul>
-		<div class="row">
-			<div class="col-xs-12 col-md-6">
-				<div class="row">
-					<div class="col-4">
-						<img src="img/mon-an-1.jpg">
-					</div>
-					<div class="col-8">
-						<h3>Xà Lách Phô Mai</h3>
-						<p>Mô tả món ăn</p>
-					</div>
+			<p class="text-center">Dưới đây là một số hình ảnh về nhà hàng và một số món ăn đặc biệt</p>
+			<div class="row">
+				<div class="col-xs-6 col-md-3">
+					<a id="group-anh-1" href="#">
+						<img id="anh-1" src="img/gallery-anh-1.jpg">
+						<div id="overlay-1" class="color-overlay"></div>
+					</a>
 				</div>
-			</div>
-			<div class="col-xs-12 col-md-6">
-				<div class="row">
-					<div class="col-4">
-						<img src="img/mon-an-2.jpg">
-					</div>
-					<div class="col-8">
-						<h3>Xà Lách Phô Mai</h3>
-						<p>Mô tả món ăn</p>
-					</div>
+				<div class="col-xs-6 col-md-3">
+					<a id="group-anh-2" href="#">
+						<img id="anh-2" src="img/gallery-anh-2.jpg">
+						<div id="overlay-2" class="color-overlay"></div>
+					</a>
 				</div>
+				<div class="col-xs-6 col-md-3">
+					<a id="group-anh-3" href="#">
+						<img id="anh-3" src="img/gallery-anh-3.jpg">
+						<div id="overlay-3" class="color-overlay"></div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<a id="group-anh-4" href="#">
+						<img id="anh-4" src="img/gallery-anh-4.jpg">
+						<div id="overlay-4" class="color-overlay"></div>
+					</a>
+				</div>
+				<div id="demo1"></div>
+				<div id="demo2"></div>
+				<div id="demo3"></div>
+				<div id="demo4"></div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12 col-md-6">
-				<div class="row">
-					<div class="col-4">
-						<img src="img/mon-an-3.jpg">
-					</div>
-					<div class="col-8">
-						<h3>Xà Lách Phô Mai</h3>
-						<p>Mô tả món ăn</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-md-6">
-				<div class="row">
-					<div class="col-4">
-						<img src="img/mon-an-4.jpg">
-					</div>
-					<div class="col-8">
-						<h3>Xà Lách Phô Mai</h3>
-						<p>Mô tả món ăn</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 col-md-6">
-				<div class="row">
-					<div class="col-4">
-						<img src="img/mon-an-5.jpg">
-					</div>
-					<div class="col-8">
-						<h3>Xà Lách Phô Mai</h3>
-						<p>Mô tả món ăn</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-md-6">
-				<div class="row">
-					<div class="col-4">
-						<img src="img/mon-an-6.jpg">
-					</div>
-					<div class="col-8">
-						<h3>Xà Lách Phô Mai</h3>
-						<p>Mô tả món ăn</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Thư viện ảnh -->
-	<div id="thu-vien-anh" class="container-fluid bg-light">
-		<h1 class="text-center">Thư viện ảnh</h1>
-		<hr>
-		<p class="text-center">Dưới đây là một số hình ảnh về nhà hàng và một số món ăn đặc biệt</p>
-		<div class="row">
-			<div class="col-xs-6 col-md-3">
-				<a id="group-anh-1" href="#">
-					<img id="anh-1" src="img/gallery-anh-1.jpg">
-					<div id="overlay-1" class="color-overlay"></div>
-				</a>
-			</div>
-			<div class="col-xs-6 col-md-3">
-				<a id="group-anh-2" href="#">
-					<img id="anh-2" src="img/gallery-anh-2.jpg">
-					<div id="overlay-2" class="color-overlay"></div>
-				</a>
-			</div>
-			<div class="col-xs-6 col-md-3">
-				<a id="group-anh-3" href="#">
-					<img id="anh-3" src="img/gallery-anh-3.jpg">
-					<div id="overlay-3" class="color-overlay"></div>
-				</a>
-			</div>
-			<div class="col-xs-6 col-md-3">
-				<a id="group-anh-4" href="#">
-					<img id="anh-4" src="img/gallery-anh-4.jpg">
-					<div id="overlay-4" class="color-overlay"></div>
-				</a>
-			</div>
-			<div id="demo1"></div>
-			<div id="demo2"></div>
-			<div id="demo3"></div>
-			<div id="demo4"></div>
-		</div>
-	</div>
-	<!-- Đặt bàn -->
-	<div id="dat-ban" class="container-fluid">
-		<h1 class="text-center">Đặt bàn</h1>
-		<hr class="my-0">
-		<p class="text-center">Để tránh tình trạng hết bàn<br>Mời bạn đặt bàn trước
-		</p>
-		<div class="row">
-			<div class="col-xs-12 col-md-3"><img src="img/reservation-anh-1.jpg"></div>
-			<div class="col-xs-12 col-md-6">
-				<div class="row">
-					<div class="col-xs-12 col-md-6">
-						<input type="text" placeholder="Họ tên"></input>
-					</div>
-					<div class="input-no-margin" class="col-xs-12 col-md-6">
-						<input type="number" placeholder="Số điện thoại"></input>
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<input type="date"></input>
-					</div>
-					<div class="input-no-margin" class="col-xs-12 col-md-6">
-						<input type="time"></input>
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<input type="number" placeholder="Số lượng khách"></input>
-					</div>
-					<div class="input-no-margin" class="col-xs-12 col-md-6">
-						<input type="email" placeholder="Email"></input>
-					</div>
-					<div class="col-xs-12 col-md-12">
-						<textarea placeholder="Ghi chú"></textarea>
-					</div>
-					<div class="col-xs-12 col-md-12">
-						<button type="button">Đặt bàn</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-md-3"><img src="img/reservation-anh-2.jpg"></div>
-		</div>
-	</div>
-	<!-- Footer -->
-	<footer>
-		<div class="container-fluid">
+		<!-- Đặt bàn -->
+		<div id="dat-ban" class="container-fluid">
+			<h1 class="text-center">Đặt bàn</h1>
+			<hr class="my-0">
+			<p class="text-center">Để tránh tình trạng hết bàn<br>Mời bạn đặt bàn trước
+			</p>
 			<div class="row">
 				<div class="col-xs-12 col-md-3">
-					<img class="img-fluid" src="img/cot-dien-footer.png">
-					<p class="text-justify">We have a hankering for some really in good melt in a mouth variety. Floury is the best choice to taste food and desert.</p>
-					<i class="fab fa-facebook"></i>
-					<i class="fab fa-twitter"></i>
-					<i class="fab fa-google-plus-g"></i>
-					<i class="fab fa-pinterest"></i>
+					<img src="img/reservation-anh-1.jpg">
 				</div>
-				<div class="col-xs-12 col-md-3">
-					<hr>
-					<h1>Liên Hệ</h1>
-					<p><i class="fa fa-map-marker-alt"></i><span>01 đường Đồng Nai, Phường 15, Quận 10, Tp.HCM</span><br></p>
-					<p><i class="fa fa-phone"></i><span>1800 55 88 69 (nhấn phím 2)</span><br></p>
-					<i class="fas fa-envelope"></i><span>muavangcompany@gmail.com</span><p class="mua-vang">muavang.warehouse@gmail.com</p>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<hr>
-					<h1>Giờ mở cửa</h1>
-					<p>Thứ 2 đến Thứ 6: 6h00 → 9h00</p>
-					<p>Thứ 7, Chủ nhật: 6h00 → 10h00</p>
-					<p>Đóng cửa vào ngày lễ</p>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<hr>
-					<h1>Bản đồ</h1>
-					<div id="map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4217027839563!2d106.66291146433669!3d10.77897841209519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c3958e5ae10cac3!2sM%C3%B9a+V%C3%A0ng+The+Warehouse!5e0!3m2!1svi!2s!4v1540985506947" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div class="col-xs-12 col-md-6">
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<input type="text" placeholder="Họ tên"></input>
+						</div>
+						<div class="input-no-margin" class="col-xs-12 col-md-6">
+							<input type="number" placeholder="Số điện thoại"></input>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<input type="date"></input>
+						</div>
+						<div class="input-no-margin" class="col-xs-12 col-md-6">
+							<input type="time"></input>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<input type="number" placeholder="Số lượng khách"></input>
+						</div>
+						<div class="input-no-margin" class="col-xs-12 col-md-6">
+							<input type="email" placeholder="Email"></input>
+						</div>
+						<div class="col-xs-12 col-md-12">
+							<textarea placeholder="Ghi chú"></textarea>
+						</div>
+						<div class="col-xs-12 col-md-12">
+							<button type="button">Đặt bàn</button>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-12">
-					<p class="text-center">© 2018 Cột Điện Kitchen. All Rights Reserved</p>
+				<div class="col-xs-12 col-md-3">
+					<img src="img/reservation-anh-2.jpg">
 				</div>
 			</div>
 		</div>
-	</footer>
+		<!-- Footer -->
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12 col-md-3">
+						<img class="img-fluid" src="img/cot-dien-footer.png">
+						<p class="text-justify">We have a hankering for some really in good melt in a mouth variety. Floury is the best choice to taste food and desert.</p>
+						<i class="fab fa-facebook"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-google-plus-g"></i>
+						<i class="fab fa-pinterest"></i>
+					</div>
+					<div class="col-xs-12 col-md-3">
+						<hr>
+						<h1>Liên Hệ</h1>
+						<p><i class="fa fa-map-marker-alt"></i><span>01 đường Đồng Nai, Phường 15, Quận 10, Tp.HCM</span><br></p>
+						<p><i class="fa fa-phone"></i><span>1800 55 88 69 (nhấn phím 2)</span><br></p>
+						<i class="fas fa-envelope"></i><span>muavangcompany@gmail.com</span><p class="mua-vang">muavang.warehouse@gmail.com</p>
+					</div>
+					<div class="col-xs-12 col-md-3">
+						<hr>
+						<h1>Giờ mở cửa</h1>
+						<p>Thứ 2 đến Thứ 6: 6h00 → 9h00</p>
+						<p>Thứ 7, Chủ nhật: 6h00 → 10h00</p>
+						<p>Đóng cửa vào ngày lễ</p>
+					</div>
+					<div class="col-xs-12 col-md-3">
+						<hr>
+						<h1>Bản đồ</h1>
+						<div id="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4217027839563!2d106.66291146433669!3d10.77897841209519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c3958e5ae10cac3!2sM%C3%B9a+V%C3%A0ng+The+Warehouse!5e0!3m2!1svi!2s!4v1540985506947" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<p class="text-center">© 2018 Cột Điện Kitchen. All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
 	<script>
 		$(document).ready(function(){
 			$("#group-anh-1").hover(function(){

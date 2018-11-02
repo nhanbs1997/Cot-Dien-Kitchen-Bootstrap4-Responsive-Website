@@ -1,0 +1,47 @@
+header #slideshow img{
+	height: 600px;
+}
+#thu-vien-anh .col-md-3:first-child{
+	margin-left: 9rem;
+}
+#thu-vien-anh .col-md-3{
+	border: 1px solid rgba(0,0,0,.125);
+	margin: 0px 15px;
+	padding: 0;
+	border-radius: 2px;
+}
+#thu-vien-anh .col-md-3 img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#thu-vien-anh .col-md-3 p{
+	font-size: 1.25rem;
+	color: #1b2024;
+	font-weight: 500;
+}
+#thu-vien-anh .col-md-3 p:hover{
+	color: #e5cf05;
+	transition: ease .5s;
+}
+#thu-vien-anh .col-md-3 button{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	background: none;
+	font-size: .7rem;
+	padding: .2rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+#thu-vien-anh .col-md-3 button:hover{
+	color: white;
+	background: #e5cf05;
+	border: 2px solid #e5cf05;
+	transition: ease .5s;
+}
+#anh-3{
+	width: 150%;
+	height: 200px;
+}

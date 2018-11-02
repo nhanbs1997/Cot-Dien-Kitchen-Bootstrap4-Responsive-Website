@@ -1,0 +1,129 @@
+header #slideshow{
+	position: relative;
+}
+
+header #slideshow img{
+	width: 100%;
+	height: auto;
+	margin-top: -3rem;
+}
+header #slideshow img{
+	height: 600px;
+}
+header #slideshow .slideshow-bottom{
+	content: '';
+	position: absolute;
+	background: rgba(0, 0, 0, 0) url(../img/su-kien-tri-promo-bottom-white.png) repeat scroll 0 0;
+	left: 0;
+	bottom: 0px;
+	height: 7px;
+	-webkit-transform: rotateX(180deg);
+	transform: rotateX(180deg);
+	width: 100%;
+	z-index: 1;
+}
+header nav .collapse{
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-right: 25%;
+	transition: ease 2s;
+}
+header nav a img{
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+}
+section{
+	margin-top: 3rem;
+}
+section img{
+	width: 80%;
+	height: 80%;
+	float: right;
+	box-shadow: 5px 5px 10px grey;
+}
+section h3{
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: #e6d112;
+	text-align: left;
+	margin-bottom: 10px;
+}
+section p{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: .9rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+}
+section button{
+	padding: .3rem 2.7rem;
+	border: 2px solid black;
+	background-color: #fbfbfb;
+	font-size: .8rem;
+	font-weight: bold;
+}
+section button:hover{
+	background-color: #e6d112;
+	border: 2px solid #e6d112;
+	transition: 0.5s;
+	color: white;
+	font-weight: bold;
+}
+section button:nth-of-type(2){
+	padding: .3rem 1.5rem;
+	float: right;
+}
+section .jumbotron{
+	width: 60%;
+	box-shadow: 5px 5px 10px grey;
+	background-color: #fbfbfb;
+	padding: 2rem;
+}
+#chua-map{
+	padding: 0;
+}
+#map{
+	width: 100%;
+	height: 30rem;
+	padding-top: -5;
+}
+#lien-he{
+	background-color: #303231;
+	padding: 3rem 1rem;
+}
+#lien-he img{
+	margin-top: 1rem;
+	margin-right: 1rem;
+	float: left;
+}
+#lien-he p{
+	color: white;
+	font-size: .8rem;
+	margin-left: 12rem;
+}
+#lien-he p:nth-of-type(1){
+	color: #e5cf05;
+	font-weight: 700;
+	font-size: 1rem;
+}
+#lien-he p:nth-of-type(4){
+	margin-left: 13rem;
+}
+#theo-doi-chung-toi{
+	background: #1f1f1f;
+	color: #e5cf05;
+	font-weight: 700;
+	padding: 5rem 0;
+}
+#theo-doi-chung-toi a{
+	height: 2rem;
+	width: 2rem;
+	padding-top: .3rem;
+	background: white;
+	border-radius: 50%;
+	display: inline-block;
+	color: black;
+}
+#theo-doi-chung-toi a:hover{
+	background: #e5cf05;
+	color: white;
+}
