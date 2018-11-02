@@ -1,8 +1,8 @@
 @media only screen and (max-width: 440px) {
 	/* Header */
 	header #slideshow img{
-	height: 300px;
-}
+		height: 300px;
+	}
 	#logo, header nav .collapse{
 		background: #1b2024;
 	}

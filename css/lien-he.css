@@ -9,45 +9,44 @@ section iframe{
 	margin-left: 25%;
 	height: 500px;
 }
-#tuyen-dung .col-md-4:first-child{
+section #tuyen-dung .col-md-4:first-child{
 	margin-left: 16%;
 	margin-top: 2rem;
 }
-#tuyen-dung .col-md-4:last-child img{
+section #tuyen-dung .col-md-4:last-child img{
 	width: 30%;
 	margin-top: 2rem;
 }
-#tuyen-dung .col-md-4:last-child p{
+section #tuyen-dung .col-md-4:last-child p{
 	font-weight: 700;
 	color: #2F4F4F;
 	line-height: 24px;
 	margin: 0;
 }
-#tuyen-dung h6{
+section #tuyen-dung h6{
 	font-weight: bold;
 	line-height: .5rem;
 }
-form{
+section form{
 	margin-left: 52%;
 }
-form label{
+section form label{
 	display: inline-block;
 	font-size: .8rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    margin-top: .5rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	margin-top: .5rem;
 }
-
-form input{
+section form input{
 	border: 1px solid rgb(235, 235, 235);
 	width: 200%;
 }
-form .input-last{
+section form .input-last{
 	height: 3rem;
 }
-form button{
+section form button{
 	margin-top: 1rem;
 	padding: .2rem .5rem;
 	background:  #e5cf05;
@@ -55,6 +54,6 @@ form button{
 	border: none;
 	font-weight: bold;
 }
-#recaptcha{
+section #recaptcha{
 	margin-top: 1rem;
 }

@@ -1,67 +1,66 @@
 @media only screen and (max-width: 440px) {
 	header #slideshow img{
-	height: 300px;
-}
+		height: 300px;
+	}
 	section h1{
 		font-size: 2rem;
 	}
-section hr{
-	width: 20%;
-}
-section iframe{
-	margin-left: 0%;
-	height: 200px;
-}
-#tuyen-dung .col-md-4:first-child{
-	margin-left: 0%;
-	margin-top: 1rem;
-}
-#tuyen-dung .col-md-4:last-child img{
-	width: 30%;
-	margin-top: 0rem;
-}
-#tuyen-dung .col-md-4:last-child p{
-	font-size: .7rem;
-}
-#tuyen-dung h6{
-	font-weight: bold;
-	line-height: .5rem;
-}
-form{
-	margin-left: 0%;
-}
-form label{
-	display: inline-block;
-	font-size: .8rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    margin-top: .5rem;
-}
-
-form input{
-	border: 1px solid rgb(235, 235, 235);
-	width: 100%;
-}
-form .input-last{
-	height: 3rem;
-}
-form button{
-	margin-top: 1rem;
-	padding: .2rem .5rem;
-	background:  #e5cf05;
-	color: white;
-	border: none;
-	font-weight: bold;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-#dat-ban{
-	margin-top: 1rem;
-}
-#recaptcha{
-	margin-top: 1rem;
-}
+	section hr{
+		width: 20%;
+	}
+	section iframe{
+		margin-left: 0%;
+		height: 200px;
+	}
+	section #tuyen-dung .col-md-4:first-child{
+		margin-left: 0%;
+		margin-top: 1rem;
+	}
+	section #tuyen-dung .col-md-4:last-child img{
+		width: 30%;
+		margin-top: 0rem;
+	}
+	section #tuyen-dung .col-md-4:last-child p{
+		font-size: .7rem;
+	}
+	section #tuyen-dung h6{
+		font-weight: bold;
+		line-height: .5rem;
+	}
+	section form{
+		margin-left: 0%;
+	}
+	section form label{
+		display: inline-block;
+		font-size: .8rem;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #212529;
+		text-align: left;
+		margin-top: .5rem;
+	}
+	section form input{
+		border: 1px solid rgb(235, 235, 235);
+		width: 100%;
+	}
+	section form .input-last{
+		height: 3rem;
+	}
+	section form button{
+		margin-top: 1rem;
+		padding: .2rem .5rem;
+		background:  #e5cf05;
+		color: white;
+		border: none;
+		font-weight: bold;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	section #recaptcha{
+		margin-top: 1rem;
+	}
+	section #dat-ban{
+		margin-top: 1rem;
+	}
 }
